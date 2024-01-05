@@ -1,11 +1,15 @@
 const btSortear = document.querySelector("#bt-sortear")
 
 
-function sortear (min, max) {
+function sortear () {
     
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return console.log( Math.floor(Math.random() * (max - min) + min));
+    const min = Math.ceil(document.getElementById("firstNumber").value);
+    const max = Math.floor(document.getElementById("lastNumber").value);
+    const displayResult = document.getElementById("displayResult")
+    const result = Math.floor(Math.random() * (max - min) + min);
+
+
+    displayResult.innerHTML = `O número sorteado foi ${result}`;
 }
 
 

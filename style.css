@@ -46,6 +46,13 @@ div#button {
     align-items: center;
 }
 
+div#displayResult {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px;
+}
+
 button {
     width: 342px;
     height: 72px;
@@ -56,5 +63,5 @@ button {
     font-size: 36px;
     font-weight: 700;
     line-height: 2.5px;
-    margin-top: 79px;
+    margin-top: 10px;
 }
